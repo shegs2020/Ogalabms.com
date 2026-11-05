@@ -156,7 +156,8 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-sm) 0;
+  padding-top: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
   position: relative;
 }
 
@@ -1241,6 +1242,7 @@ p {
   margin-bottom: var(--spacing-xl);
   flex-wrap: wrap;
   gap: var(--spacing-lg);
+  width: 100%;
 }
 
 .footer-logo {
@@ -1293,6 +1295,7 @@ p {
   gap: var(--spacing-md);
   padding-top: var(--spacing-md);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
 }
 
 .footer-bottom p {
