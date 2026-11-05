@@ -168,7 +168,9 @@ p {
 }
 
 .logo-img {
-  height: 40px;
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .logo-text {
@@ -1252,7 +1254,9 @@ p {
 }
 
 .footer-logo .logo-img {
-  height: 35px;
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .footer-logo .logo-text {
@@ -1504,7 +1508,7 @@ p {
   }
 
   .header .logo-img {
-    height: 34px;
+    height: 28px;
   }
 
   .mobile-menu-button {
