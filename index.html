@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogalab - Medical Laboratory Management System</title>
+    <meta name="description" content="Ogalab is a modern on-premise medical laboratory management system for diagnostic centers and clinics. Manage patients, sample tracking, test results, ultrasound reporting, and billing with lifetime access.">
+    <link rel="canonical" href="https://ogalabms.com">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ogalabms.com">
+    <meta property="og:title" content="Ogalab - Medical Laboratory Management System">
+    <meta property="og:description" content="Modern, on-premise medical laboratory software. Streamline patient records, sample tracking, billing, and scan reporting with zero monthly subscriptions.">
+    <meta property="og:image" content="https://ogalabms.com/assets/ogalab%20logo.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ogalab - Medical Laboratory Management System">
+    <meta name="twitter:description" content="Modern, on-premise medical laboratory software for diagnostic centers and clinics.">
+    <meta name="twitter:image" content="https://ogalabms.com/assets/ogalab%20logo.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://ogalabms.com" aria-label="Ogalab home">
+                    <img src="assets/ogalab logo.png" alt="Ogalab Logo" class="logo-img">
+                </a>
+
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item has-submenu">
+                        <div class="nav-link-group">
+                            <a href="#" class="nav-link" data-nav-target="about">Our Product</a>
+                            <button class="submenu-toggle" type="button" aria-label="Toggle About submenu"
+                                aria-expanded="false">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <ul class="submenu">
+                            <li><a href="#about" class="submenu-link" data-nav-target="benefits"
+                                    data-parent-target="about">About Ogalab</a></li>
+                            <li><a href="#benefits" class="submenu-link" data-nav-target="benefits"
+                                    data-parent-target="about">Benefits</a></li>
+                            <li><a href="#features" class="submenu-link" data-nav-target="features"
+                                    data-parent-target="about">Features</a></li>
+                            <li><a href="#testimonials" class="submenu-link" data-nav-target="testimonials"
+                                    data-parent-target="about">Testimonials</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link" data-nav-target="pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item has-submenu">
+                        <div class="nav-link-group">
+                            <button class="nav-link nav-link-button" type="button"
+                                data-nav-target="resources">Resources</button>
+                            <button class="submenu-toggle" type="button" aria-label="Toggle Resources submenu"
+                                aria-expanded="false">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                        <ul class="submenu">
+                            <li><a href="#" class="submenu-link submenu-placeholder">Help Center</a></li>
+                            <li><a href="#" class="submenu-link submenu-placeholder">Knowledge base</a></li>
+                            <li><a href="#faq" class="submenu-link" data-nav-target="faq"
+                                    data-parent-target="resources">FAQs</a></li>
+                            <li><a href="#" class="submenu-link submenu-placeholder">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-nav-target="contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button primary header-cta">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Modern Laboratory Management Made Simple</h1>
+                <p class="hero-description">Ogalab streamlines your medical laboratory operations with powerful features
+                    for patient management, sample tracking, result processing, billing, and more.</p>
+                <div class="hero-buttons">
+                    <a href="https://example.com/demo-video" target="_blank" class="cta-button secondary">See Video <i
+                            class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                    <a href="https://wa.link/g3qc5w" class="cta-button primary">Request a Demo</a>
+
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/mockup-imac.png" alt="Ogalab iMac Mockup" class="dashboard-preview" width="1400" height="1050" fetchpriority="high">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Ogalab</h2>
+                <p>Revolutionizing medical laboratory management</p>
+            </div>
+            <div class="about-layout about-layout-two">
+                <div class="about-image about-image-full">
+                    <img src="assets/new-dashboard.png" alt="Ogalab dashboard preview for about layout two"
+                        class="about-preview" loading="lazy">
+                </div>
+                <div class="about-text about-text-centered">
+                    <p>Ogalab is a cutting-edge Medical Laboratory Management System designed to streamline laboratory
+                        operations and enhance efficiency. Our platform combines modern technology with industry
+                        expertise to provide laboratories with the tools they need to succeed.</p>
+                    <p>Built with security, scalability, and usability in mind, Ogalab helps laboratories of all sizes
+                        manage patients, track samples, process results, and handle billing with unprecedented ease.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Laboratories Served</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>130+</h3>
+                        <p>Tests in Catalog</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>99.9%</h3>
+                        <p>Uptime Guarantee</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Benefits</h2>
+                <p>Transform your laboratory operations with Ogalab</p>
+            </div>
+            <div class="benefits-container">
+                <div class="benefit-item">
+                    <div class="benefit-number">1</div>
+                    <div class="benefit-content">
+                        <h3>Increased Efficiency</h3>
+                        <p>Streamline workflows and reduce manual tasks with automated processes for sample tracking,
+                            result entry, and billing.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">2</div>
+                    <div class="benefit-content">
+                        <h3>Improved Accuracy</h3>
+                        <p>Minimize errors with systematic approaches to data entry, validation, and result reporting
+                            with automatic abnormal value detection.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">3</div>
+                    <div class="benefit-content">
+                        <h3>Enhanced Security</h3>
+                        <p>Protect sensitive patient data with robust authentication, role-based access control, and
+                            comprehensive activity logging.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">4</div>
+                    <div class="benefit-content">
+                        <h3>Improved Financial Management</h3>
+                        <p>Track revenue, manage invoices, and generate financial reports with our comprehensive billing
+                            system.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">5</div>
+                    <div class="benefit-content">
+                        <h3>Efficient Sample Management</h3>
+                        <p>Efficiently register, track, and manage samples throughout their lifecycle with real-time
+                            status updates and comprehensive audit trails.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-number">6</div>
+                    <div class="benefit-content">
+                        <h3>Comprehensive Referral Management</h3>
+                        <p>Effortlessly manage and track referrals from healthcare providers, ensuring seamless
+                            communication and commission tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need to manage your laboratory efficiently</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Patient Management</h3>
+                    <p>Easily create and manage patient profiles from demographics and medical history to referrals for
+                        complete, organized records.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Sample Management</h3>
+                    <p>Register samples, track their status, and view a full audit trail. Simplify workflows with batch
+                        approvals and consolidated reporting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Test Catalog & Result Management</h3>
+                    <p>Manage a customizable catalog of 120+ tests with detailed parameters, and process results
+                        efficiently from entry to PDF reporting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h3>Ultrasound Scan Reporting</h3>
+                    <p>Generate detailed reports for ultrasound scans with customizable templates.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Billing System</h3>
+                    <p>Automated invoice generation, payment tracking, and comprehensive financial reports.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Referral Tracking</h3>
+                    <p>Monitor and manage referrals from healthcare providers with detailed commission tracking and
+                        reporting.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Real-time statistics and comprehensive reports for data-driven decisions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <h3>Security & Compliance</h3>
+                    <p>JWT authentication, RBAC, activity logging, and audit trails for compliance.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-lines"></i>
+                    </div>
+                    <h3>Customizable Report Format</h3>
+                    <p>Tailor your reports to meet specific needs and preferences based on your colour palette and
+                        design needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the plan that works best for your laboratory</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Standard Package</h3>
+                        <p class="pricing-setup">1PC Setup</p>
+                        <div class="price">
+                            <span class="amount">₦450,000</span>
+                        </div>
+                        <p>Perfect for small laboratory setups</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>One-time payment, no annual Subscription</li>
+                        <li>On-premise deployment</li>
+                        <li>Life-time access</li>
+                        <li>Unlimited samples creation</li>
+                        <li>Advanced patient management</li>
+                        <li>Test Catalog Management</li>
+                        <li>Custom test configurations</li>
+                        <li>Test Results Management</li>
+                        <li>PDF Report Generation</li>
+                        <li>Billing, Payments and Refunds Management</li>
+                        <li>Role-Based Access Control (RBAC)</li>
+                        <li>Users Management System</li>
+                        <li>Secure Database Backup and Restore</li>
+                        <li>Secure Authentication & Authorization System</li>
+                        <li>Ultrasound Scan Management Module</li>
+                        <li>Referral Partner Management Module</li>
+                        <li>Advanced Analytics & Reports</li>
+                        <li>Dedicated support</li>
+                    </ul>
+                    <button class="see-more-btn" type="button">See all features</button>
+                    <a href="https://wa.link/n9m7i6" target="_blank" rel="noopener noreferrer"
+                        class="cta-button secondary">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Pro Package</h3>
+                        <p class="pricing-setup">2-3 PC Setup</p>
+                        <div class="price">
+                            <span class="amount">₦550,000</span>
+                        </div>
+                        <p>Best for growing laboratory operations</p>
+                    </div>
+                    <p class="pricing-features-heading">Everything in Standard Package, plus:</p>
+                    <ul class="pricing-features">
+                        <li>Incident Logger</li>
+                        <li>Lab Expense Manager</li>
+                        <li>Lab Inventory Manager</li>
+                        <li>One-time payment, no annual Subscription</li>
+                        <li>On-premise deployment</li>
+                        <li>Own forever</li>
+                        <li>24/7 dedicated support</li>
+                        <li>Priority call & chat support</li>
+                    </ul>
+                    <button class="see-more-btn" type="button">See all features</button>
+                    <a href="https://wa.link/n0knwt" target="_blank" rel="noopener noreferrer"
+                        class="cta-button primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise Package</h3>
+                        <p class="pricing-setup">Multiple PC Setup</p>
+                        <div class="price">
+                            <span class="amount">₦850,000</span>
+                        </div>
+                        <p>Designed for multi-station laboratory teams</p>
+                    </div>
+                    <p class="pricing-features-heading">Everything in Standard & Pro Package, plus:</p>
+                    <ul class="pricing-features">
+                        <li>Own forever</li>
+                        <li>On-prem deployment</li>
+                        <li>Lifetime access</li>
+                        <li>24/7 dedicated support</li>
+                        <li>Priority chat & email support</li>
+                    </ul>
+                    <button class="see-more-btn" type="button">See all features</button>
+                    <a href="https://wa.link/dnjab2" target="_blank" rel="noopener noreferrer"
+                        class="cta-button secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by Laboratories</h2>
+                <p>Hear what our customers say about Ogalab</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Ogalab has transformed our laboratory operations. The sample tracking system alone has
+                            reduced our processing time by 40%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Lucius Pefi</h4>
+                            <p>Lab Technician, Biocrown Diagnostics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The billing system is exceptional. We've improved our cash flow significantly and reduced
+                            billing errors to almost zero."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Michael Okonkwo</h4>
+                            <p>Lab Scientist, Regional Diagnostics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Implementing Ogalab was seamless. The intuitive interface meant our staff adopted it quickly
+                            with minimal training."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Dr. Emmanuel Okafor</h4>
+                            <p>Chief Pathologist, Metropolitan Medical Center</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about Ogalab</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is Ogalab?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ogalab is a laboratory and diagnostic center management system for handling patient records,
+                            laboratory tests, samples, lab results, billing, referrals, scan workflows and reporting,
+                            analytics, administrative control and more.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Who is Ogalab designed for?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ogalab is designed for:</p>
+                        <ul class="faq-list">
+                            <li>Diagnostic laboratories</li>
+                            <li>Medical testing centers</li>
+                            <li>Clinics with laboratory services</li>
+                            <li>Facilities that also manage ultrasound scan workflows</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What are the main features of Ogalab?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ogalab includes patient management, sample tracking, test catalog and result management,
+                            billing and payments, referral tracking, ultrasound scan reporting, customizable report
+                            formats, analytics dashboards, and secure role-based access control.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is Ogalab only for laboratory tests?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. In addition to lab workflows, OgaLab also supports ultrasound scan-related workflows such
+                            as scan types, scan requests, scan reporting, approval, publishing, and PDF export.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long does implementation take?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most laboratories are up and running within 3 days, depending on complexity and data
+                            migration requirements. Our streamlined implementation process includes setup,
+                            configuration, training, and go-live support.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How secure is my laboratory data with Ogalab?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ogalab employs enterprise-grade security measures including end-to-end encryption, JWT
+                            authentication, role-based access control, and comprehensive activity logging. All data is
+                            stored in your own secure, compliant server with automated regular backup for disaster
+                            recovery.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What kind of training and support do you provide?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We provide comprehensive onboarding, including system setup, data migration assistance, and
+                            user training. Our support team offers email, chat, and phone support during business hours.
+                            Pro Plan customers receive 24/7 dedicated support.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there a cloud-based version of Ogalab?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No, Ogalab is an on-premise solution that you install and run on your own servers. This gives
+                            you complete control over your data and infrastructure. But, we are planning to offer a
+                            cloud-based option in the future.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-cta">
+                <a href="#" class="faq-cta-button">Still have questions? View full FAQ <span
+                        aria-hidden="true">→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Have questions? We're here to help</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Us</h3>
+                            <p>support@ogalabms.com</p>
+                            <p>sales@ogalabms.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Call Us</h3>
+                            <p>+234 814 196 7200</p>
+                            <p>+234 807 595 6514</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Visit Us</h3>
+                            <p>Plot 78, Ralph Shodeinde Street</p>
+                            <p>Central Business District, Abuja.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="contactName" class="sr-only">Your Name</label>
+                            <input type="text" id="contactName" name="name" placeholder="Your Name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail" class="sr-only">Your Email</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="Your Email" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactSubject" class="sr-only">Subject</label>
+                            <input type="text" id="contactSubject" name="subject" placeholder="Subject (e.g. Request a Demo, Pricing)">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage" class="sr-only">Your Message</label>
+                            <textarea id="contactMessage" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <div id="contactFormStatus" class="form-status" role="alert" aria-live="polite"></div>
+                        <button type="submit" class="cta-button primary" id="contactSubmitBtn">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+                        </button>
+                        <p class="form-helper-text">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Instant response via WhatsApp Business
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Laboratory?</h2>
+                <p>Join top medical laboratories already using Ogalab to streamline their operations and improve
+                    efficiency. Schedule a demo with us today!</p>
+                <a href="https://wa.link/g3qc5w" target="_blank" rel="noopener noreferrer" class="cta-button large">Get
+                    in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo-section">
+                    <div class="footer-logo">
+                        <img src="assets/ogalab logo_white.png" alt="Ogalab Logo" class="logo-img">
+                    </div>
+                    <p class="footer-description">Ogalab is a lab management system that streamlines operations, boosts
+                        accuracy, and improves efficiency in Nigerian medical labs.</p>
+
+                    <div class="social-icons">
+                        <a href="https://facebook.com/ogalab" target="_blank" class="social-icon facebook"
+                            aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/ogalab" target="_blank" class="social-icon instagram"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/ogalab" target="_blank" class="social-icon x"
+                            aria-label="X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://threads.net/ogalab" target="_blank" class="social-icon threads"
+                            aria-label="Threads">
+                            <i class="fab fa-threads"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">About Ogalab</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#benefits">Benefits</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Knowledge base</a></li>
+                            <li><a href="#faq">FAQs</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ogalab. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

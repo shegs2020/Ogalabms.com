@@ -1,0 +1,15 @@
+# Asset backups
+assets/.backup/
+*.backup
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor & IDE directories
+.vscode/
+.idea/
+
+# Logs
+*.log
